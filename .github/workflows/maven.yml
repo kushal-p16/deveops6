@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 name: Selenium Java Tests
+=======
+
+name: Java CI with Maven
+>>>>>>> e6cb42e57429650659c5a59a50511236ecf52994
 
 on:
   push:
