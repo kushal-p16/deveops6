@@ -76,7 +76,7 @@ public class LocalLoginTest {
         Assert.assertEquals(bgColor, "rgba(173, 216, 230, 1)");
     }
 
-    @AfterMethod(alwaysRun = true)
+    @AfterMethod
     public void tearDown() {
         if (driver != null) {
             driver.quit();
